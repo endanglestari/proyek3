@@ -40,11 +40,11 @@
                   <div class="my-2 d-flex justify-content-between align-items-center">
                     <div class="form-check">
                       <label class="form-check-label text-muted">
-                        <input type="checkbox" class="form-check-input"> Keep me signed in </label>
+                        <input type="checkbox" class="form-check-input"> Biarkan saya tetap masuk </label>
                     </div>
-                    <a href="#" class="auth-link text-black">Forgot password?</a>
+                    <a href="#" class="auth-link text-black">Lupa password?</a>
                   </div>
-                  <div class="text-center mt-4 font-weight-light"> Don't have an account? <a href="register.html" class="text-primary">Create</a>
+                  <div class="text-center mt-4 font-weight-light"> Belum punya akun? <a href="{{url('register')}}" class="text-primary">Registrasi</a>
                   </div>
                 </form>
               </div>

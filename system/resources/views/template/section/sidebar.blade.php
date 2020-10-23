@@ -28,10 +28,10 @@
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Vegetables</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Fruits</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Juice</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Dried</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="{{url('sayur')}}">Vegetables</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="{{url('buah')}}">Fruits</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="{{url('jus')}}">Juice</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="{{url('kering')}}">Dried</a></li>
                 </ul>
               </div>
             </li>
@@ -42,13 +42,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="register">
+              <a class="nav-link" href="{{url('register')}}">
                 <span class="menu-title">Register</span>
                 <i class="mdi mdi-account-box menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/charts/chartjs.html">
+              <a class="nav-link" href="{{url('login')}}">
                 <span class="menu-title">Log Out</span>
                <i class="mdi mdi-logout menu-icon"></i>
               </a>

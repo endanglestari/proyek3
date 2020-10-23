@@ -25,8 +25,8 @@ Route::get('home', function () {
     return view('home');
 });
 
-Route::get('produk', function () {
-    return view('produk');
+Route::get('product', function () {
+    return view('product');
 });
 
 Route::get('contact', function () {

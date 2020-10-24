@@ -25,10 +25,6 @@ Route::get('home', function () {
     return view('home');
 });
 
-Route::get('product', function () {
-    return view('product');
-});
-
 Route::get('contact', function () {
     return view('contact');
 });
@@ -39,4 +35,12 @@ Route::get('register', function () {
 
 Route::get('login', function () {
     return view('login');
+});
+
+Route::get('product', function () {
+    return view('product');
+});
+
+Route::get('user', function () {
+    return view('user.base');
 });

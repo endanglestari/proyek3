@@ -8,7 +8,7 @@
                   <!--change to offline or busy as needed-->
                 </div>
                 <div class="nav-profile-text d-flex flex-column">
-                  <span class="font-weight-bold mb-2">Saya Dung So Beautiful</span>
+                  <span class="font-weight-bold mb-2">Endang Lestari</span>
                   <span class="text-secondary text-small">Project Manager</span>
                 </div>
               </a>
@@ -20,20 +20,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="{{url('product')}}" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Product</span>
-                <i class="menu-arrow"></i>
-               <i class="mdi mdi-cart-outline menu-icon"></i>
-
+              <a class="nav-link" href="{{url('product')}}">
+                <span class="menu-title">Produk</span>
+                <i class="mdi mdi-cart-outline menu-icon"></i>
               </a>
-              <div class="collapse" id="ui-basic">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="{{url('sayur')}}">Vegetables</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="{{url('buah')}}">Fruits</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="{{url('jus')}}">Juice</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="{{url('kering')}}">Dried</a></li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{url('contact')}}">

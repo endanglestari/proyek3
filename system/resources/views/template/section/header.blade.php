@@ -28,7 +28,7 @@
               </a>
               <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a>
+                  <i class="mdi mdi-cached mr-2 text-success"></i> Setting </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="{{url('login')}}">
                   <i class="mdi mdi-logout mr-2 text-primary"></i> Sign out </a>
@@ -61,7 +61,6 @@
                     </div>
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
                     <p class="text-gray ellipsis mb-0"> Update dashboard </p>
                   </div>
                 </a>

@@ -14,20 +14,20 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('home')}}">
-                <span class="menu-title">Home</span>
+              <a class="nav-link" href="{{url('beranda')}}">
+                <span class="menu-title">Beranda</span>
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('product')}}">
+              <a class="nav-link" href="{{url('produk')}}">
                 <span class="menu-title">Produk</span>
                 <i class="mdi mdi-cart-outline menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('contact')}}">
-                <span class="menu-title">Contact</span>
+              <a class="nav-link" href="{{url('kategori')}}">
+                <span class="menu-title">Kategori</span>
                 <i class="mdi mdi-contacts menu-icon"></i>
               </a>
             </li>

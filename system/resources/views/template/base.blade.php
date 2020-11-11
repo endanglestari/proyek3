@@ -37,6 +37,13 @@
               <div class="col-12">
               </div>
             </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  @include('template.utils.notif')
+                </div>
+              </div>
+            </div>
              @yield('content')
             <div class="page-header"></div>
           </div>
